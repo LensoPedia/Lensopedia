@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lensopedia</string>
+    <string name="title_home">Home</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_upload">Upload</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- EmailJS Service Configurations for Volley REST OTP -->
+    <string name="emailjs_service_id">service_lensopedia</string>
+    <string name="emailjs_template_id">template_lens_otp</string>
+    <string name="emailjs_user_id">user_lens_public_key</string>
+</resources>

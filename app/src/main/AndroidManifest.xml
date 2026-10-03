@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lensopedia.myapp">
+
+    <!-- Permissions required for network API calls, Firebase and photo picker -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Splash / Onboarding Launcher Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Authentication (Login) Activity -->
+        <activity
+            android:name=".AuthActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Registration & Email OTP Verification Activity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Home Activity (Main Dashboard) -->
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Explore Activity (Community Feed) -->
+        <activity
+            android:name=".ExploreActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Upload Activity (Photo & Description) -->
+        <activity
+            android:name=".UploadActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Profile Activity (User account and stats) -->
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

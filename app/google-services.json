@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "490984584269",
+    "project_id": "lensopedia-mobile-prod",
+    "storage_bucket": "lensopedia-mobile-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490984584269:android:a1b2c3d4e5f67890",
+        "android_client_info": {
+          "package_name": "lensopedia.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDummyLensopediaKeyForMobileDemoOnly"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
